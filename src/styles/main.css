@@ -1,0 +1,41 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #efefef;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 10%;
+  }
+
+  .form-group {
+    width: 50%;
+    margin: 0 auto;
+    height: auto;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .app {
+    background-color: #fff;
+  }
+  
+  label {
+    display: block;
+  }
+  
+  .form-control {
+    margin-bottom: 40px;
+    width: 100%;
+    padding: 8px;
+    border: 1px solid;
+    border-radius: 4px;
+    outline: none;
+    transition: box-shadow 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .form-control:hover {
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.5);
+  }
